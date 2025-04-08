@@ -18,7 +18,7 @@ g_adjetival(esp, gadj(Adj)) -> adjetivo(esp, Adj).
 g_adverbial (esp, gadv(Adv)) -> adverbio(esp, Adv).
 g_preposicional (esp, gp(Prep)) -> preposicion(esp, Prep).
 
-
+ 
 oracion(eng, o(GN,GV)) --> g_nominal(eng, GN), g_verbal(eng, GV).
 g_nominal(eng, gn(N)) --> nombre(eng, N).
 g_nominal(eng, gn(D,N)) --> determinante(eng, D), nombre(eng, N).
