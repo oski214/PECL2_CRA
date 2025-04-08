@@ -41,3 +41,6 @@ verbo(esp, v(X)) --> [X],{v(X,_)}.
 verbo(eng, v(X)) --> [Y],{v(X,Y)}.
 v(come,eats).
 v(salta,jumps).
+
+
+
